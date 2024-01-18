@@ -25,24 +25,18 @@
       rel="stylesheet" />
   </head>
 
-  <body>
+  <body class="bg-neutral-950">
     <!-- Mouse Follow -->
     <div
       id="cursor"
-      class="hidden lg:block clip z-50 mix-blend-lighten pointer-events-none absolute w-16 h-16 bg-teal-400"></div>
+      class="hidden lg:block clip z-50 mix-blend-screen pointer-events-none absolute w-16 h-16 bg-gradient-to-r from-teal-400 to-purple-600"></div>
     <main
-      class="bg-neutral-950 h-screen flex justify-center items-center selection:bg-purple-600 relative">
-      <!-- Star -->
-      <div
-        class="w-full sm:w-11/12 max-w-2xl absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
-        <img src="./images/ffflux.svg" alt="ffflux" class="clip" />
-      </div>
-      <!-- Text -->
-      <div class="z-40 text-center">
-        <h1 class="text-2xl md:text-4xl font-bold text-neutral-50">
+      class="h-screen flex justify-center items-center selection:bg-purple-600">
+      <div class="text-center">
+        <h1 class="text-3xl md:text-6xl font-bold text-neutral-50 mb-2">
           Tvořím weby
         </h1>
-        <p class="text-sm md:text-xl text-neutral-50">ahoj@matla-lu.eu</p>
+        <p class="text-xl md:text-3xl text-teal-400">ahoj@matla-lu.eu</p>
       </div>
     </main>
     <script src="./src/script.js"></script>

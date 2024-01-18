@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-image: url('../../images/ooorganize.svg');
+}
+
 .clip {
   clip-path: polygon(
     50% 0%,

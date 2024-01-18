@@ -28,14 +28,18 @@
   <body>
     <div
       id="cursor"
-      class="clip z-50 pointer-events-none mix-blend-darken absolute w-16 h-16 rounded-full bg-teal-400"></div>
+      class="hidden lg:block clip z-50 mix-blend-lighten pointer-events-none absolute w-16 h-16 rounded-full bg-teal-400"></div>
     <main
-      class="bg-neutral-50 h-screen flex justify-center items-center selection:bg-purple-600">
-      <img src="./images/ffflux.svg" alt="ffflux" class="clip" />
+      class="bg-neutral-950 h-screen flex justify-center items-center selection:bg-purple-600">
+      <div class="max-w-sm lg:max-w-2xl">
+        <img src="./images/ffflux.svg" alt="ffflux" class="clip" />
+      </div>
       <div
         class="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] text-center">
-        <h1 class="text-4xl font-bold text-neutral-50">Tvořím weby</h1>
-        <p class="text-xl text-neutral-50">ahoj@matla-lu.eu</p>
+        <h1 class="text-2xl lg:text-4xl font-bold text-neutral-50">
+          Tvořím weby
+        </h1>
+        <p class="text-sm lg:text-xl text-neutral-50">ahoj@matla-lu.eu</p>
       </div>
     </main>
     <script src="./src/script.js"></script>
